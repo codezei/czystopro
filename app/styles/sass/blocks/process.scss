@@ -23,14 +23,14 @@
                 justify-content: center;
                 margin-right: 15px;
                 background: $secondary;
-                border: 5px solid $third;
+                border: 5px solid lighten($color: $secondary, $amount: 10%);
                 border-radius: 50%;
                 transition: all 400ms;
                 flex-shrink: 0;
                 color: #fff;
             }
             &:hover:before {
-                background: $primary;
+                // background: $primary;
                 border: 5px solid $green;
                 color: #fff;
             }
@@ -58,7 +58,7 @@
                     justify-content: center;
                     margin-right: 15px;
                     background: $secondary;
-                    border: 5px solid $third;
+                    border: 5px solid lighten($color: $secondary, $amount: 10%);
                     border-radius: 50%;
                     transition: all 400ms;
                     font-weight: 700;
@@ -99,7 +99,7 @@
                 }
                 &.active {
                     &:before {
-                        background: $primary;
+                        // background: $primary;
                         border: 5px solid $green;
                         color: #fff;
                     }
